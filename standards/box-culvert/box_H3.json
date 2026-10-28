@@ -1,0 +1,10676 @@
+{
+ "type": "H3",
+ "roles": {
+  "_cycles": "CYCLE-1, CYCLE-2,4, CYCLE-3 repeat at 4x slab spacing (@600 for @150 drawings, @500 for @125). CYCLE-3 = CYCLE-1 with the OUTER (exterior-face) bars mirrored left-right; inner-face bars (T4-T6, B1-B3, W1/W2, O1/O2) stay in place. Marks below are for H3-1..H3-30 (B<=3.5 m); see _B4000 for H3-31..35.",
+  "T1": "top slab outer (top-face) bar, left end piece: runs over left cell and is bent down the outer face of the left side wall (long leg, laps B4); CYCLE-1 (mirrored to right end in CYCLE-3)",
+  "T2": "top slab outer-face middle piece, single straight bar spanning the middle cell and both middle walls, lapped (390/490 mm) with T1 and T3; CYCLE-1/3",
+  "T3": "top slab outer-face right end piece, bent down outer face of right side wall (short leg, laps B6); CYCLE-1/3",
+  "T4": "top slab inner (bottom-face) bar of left cell, anchored into side wall / past middle wall 1; CYCLE-1/3",
+  "T5": "top slab inner (bottom-face) bar of middle cell, extends into both middle walls; CYCLE-1/3",
+  "T6": "top slab inner (bottom-face) bar of right cell; CYCLE-1/3",
+  "T7": "top slab outer-face left corner piece bent down left side-wall outer face (laps B10); CYCLE-2,4",
+  "T8": "top slab outer-face piece over left/middle cell, lapped over middle wall 1 (400 lap); CYCLE-2,4",
+  "T9": "top slab outer-face piece over middle/right cell, lapped over middle wall 2; CYCLE-2,4",
+  "T10": "top slab outer-face right corner piece bent down right side-wall outer face (laps B13); CYCLE-2,4",
+  "T11": "top slab inner (bottom-face) bar, left cell; CYCLE-2,4",
+  "T12": "top slab inner (bottom-face) bar, middle cell; CYCLE-2,4",
+  "T13": "top slab inner (bottom-face) bar, right cell; CYCLE-2,4",
+  "B1": "bottom slab inner (top-face) bar, left cell; CYCLE-1/3",
+  "B2": "bottom slab inner (top-face) bar, middle cell; CYCLE-1/3",
+  "B3": "bottom slab inner (top-face) bar, right cell; CYCLE-1/3",
+  "B4": "bottom slab outer (bottom-face) left end piece bent up left side-wall outer face (short leg, laps T1); CYCLE-1 (mirrored in CYCLE-3)",
+  "B5": "bottom slab outer-face middle piece spanning middle cell and both middle walls, lapped with B4/B6; CYCLE-1/3",
+  "B6": "bottom slab outer-face right end piece bent up right side-wall outer face (long leg, laps T3); CYCLE-1/3",
+  "B7": "bottom slab inner (top-face) bar, left cell; CYCLE-2,4",
+  "B8": "bottom slab inner (top-face) bar, middle cell; CYCLE-2,4",
+  "B9": "bottom slab inner (top-face) bar, right cell; CYCLE-2,4",
+  "B10": "bottom slab outer-face left corner piece bent up left side-wall outer face (laps T7); CYCLE-2,4",
+  "B11": "bottom slab outer-face piece, lapped over middle wall 1; CYCLE-2,4",
+  "B12": "bottom slab outer-face piece, lapped over middle wall 2; CYCLE-2,4",
+  "B13": "bottom slab outer-face right corner piece bent up right side-wall outer face (laps T10); CYCLE-2,4",
+  "W1": "left side wall inner-face vertical bar (side wall inner face @2x spacing, i.e. only in CYCLE-1/3)",
+  "W2": "right side wall inner-face vertical bar (CYCLE-1/3)",
+  "O1": "middle wall 1 vertical bars, one on each face, running full height into top/bottom slabs (CYCLE-1/3; count = 2 faces x cycles 1,3)",
+  "O2": "middle wall 2 vertical bars, both faces (CYCLE-1/3)",
+  "H1": "haunch bar (straight a with 135-deg legs b=100) across the top haunches at the side walls (2 outer top corners)",
+  "H2": "haunch bars across the top haunches at the middle walls (4 corners -> double count)",
+  "H3": "diagonal corner bar at the bottom inner corners at the side walls (bottom corners have no haunch; 135-deg legs)",
+  "H4": "diagonal corner bars at the bottom inner corners at the middle walls (4 corners)",
+  "D1": "longitudinal distribution bars, top slab (both faces), 1.05-1.08 m per 1 m incl. lap",
+  "D2": "longitudinal distribution bars, bottom slab (both faces)",
+  "D3": "longitudinal distribution bars, side walls (both faces, both walls)",
+  "D4": "longitudinal distribution bars, middle walls (both faces, both walls)",
+  "S1": "shear tie / cross-tie (hooked) through top slab",
+  "S2": "shear tie through bottom slab",
+  "S3": "tie through side walls",
+  "S4": "tie through middle walls (a/b/c shaped, longer L because it wraps both face bars of the middle wall)",
+  "R1": "supplementary outer-corner bar (same 135-deg template as H bars, legs b=300) at a side-wall/slab outer corner where the CYCLE-1/3 outer bars lap; first appears H3-6 (only R1), drawn at top-left outer corner in CYCLE-1 (mirrored in CYCLE-3)",
+  "R2": "second supplementary outer-corner bar (legs b=300) at the bottom-right outer corner / lower right side wall in CYCLE-1 (mirrored in CYCLE-3); appears from H3-17 onward (not in H3-23)",
+  "_B4000": {
+   "applies": "H3-31..H3-35 (4.0m x 4.0m): the single long middle outer piece is split into two pieces, so marks renumber.",
+   "T1": "top outer left end piece bent down left side wall (long leg); CYCLE-1/3",
+   "T2": "top outer middle piece over left/middle cells; CYCLE-1/3",
+   "T3": "top outer middle piece over middle/right cells; CYCLE-1/3",
+   "T4": "top outer right end piece bent down right side wall (short leg); CYCLE-1/3",
+   "T5": "top inner bar left cell; CYCLE-1/3",
+   "T6": "top inner bar middle cell; CYCLE-1/3",
+   "T7": "top inner bar right cell; CYCLE-1/3",
+   "T8": "top outer left corner piece bent down (CYCLE-2,4)",
+   "T9": "top outer piece lapped over middle wall 1 (CYCLE-2,4)",
+   "T10": "top outer piece lapped over middle wall 2 (CYCLE-2,4)",
+   "T11": "top outer right corner piece bent down (CYCLE-2,4)",
+   "T12": "top inner bar left cell (CYCLE-2,4)",
+   "T13": "top inner bar middle cell (CYCLE-2,4)",
+   "T14": "top inner bar right cell (CYCLE-2,4)",
+   "B1": "bottom inner bar left cell; CYCLE-1/3",
+   "B2": "bottom inner bar middle cell; CYCLE-1/3",
+   "B3": "bottom inner bar right cell; CYCLE-1/3",
+   "B4": "bottom outer left end piece bent up left side wall (short leg); CYCLE-1/3",
+   "B5": "bottom outer middle piece (left/middle); CYCLE-1/3",
+   "B6": "bottom outer middle piece (middle/right); CYCLE-1/3",
+   "B7": "bottom outer right end piece bent up right side wall (long leg); CYCLE-1/3",
+   "B8": "bottom inner bar left cell (CYCLE-2,4)",
+   "B9": "bottom inner bar middle cell (CYCLE-2,4)",
+   "B10": "bottom inner bar right cell (CYCLE-2,4)",
+   "B11": "bottom outer left corner piece bent up (CYCLE-2,4)",
+   "B12": "bottom outer piece lapped over middle wall 1 (CYCLE-2,4)",
+   "B13": "bottom outer piece lapped over middle wall 2 (CYCLE-2,4)",
+   "B14": "bottom outer right corner piece bent up (CYCLE-2,4)",
+   "others": "W1/W2, O1/O2, H1-H4, D1-D4, S1-S4, R1 (top-left outer corner), R2 (lower right side wall/bottom-right corner) keep the same roles as above"
+  }
+ },
+ "pageNotes": "72 pages for 35 drawings: page 404 is a duplicate of H3-21 -1 (same as 406) and page 405 is a duplicate of H3-20 -2 (same as 403). Mapping verified from every title block.",
+ "drawings": [
+  {
+   "no": "H3-1",
+   "pages": [
+    364,
+    365
+   ],
+   "B": 2000,
+   "H": 1500,
+   "D": 2000,
+   "tT": 300,
+   "tB": 300,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 2.52,
+    "wall": 1.56,
+    "bot": 2.16,
+    "conc": 6.24,
+    "lean": 0.74,
+    "form": 18.497,
+    "steel": 0.552
+   },
+   "sp": {
+    "topSlab": 150,
+    "botSlab": 150,
+    "wallOut": 150,
+    "wallIn": 300,
+    "midWall": 150
+   },
+   "bars": [
+    [
+     "B1",
+     "H13",
+     2.975,
+     3.33
+    ],
+    [
+     "B2",
+     "H13",
+     2.69,
+     3.33
+    ],
+    [
+     "B3",
+     "H13",
+     2.175,
+     3.33
+    ],
+    [
+     "B4",
+     "H13",
+     2.24,
+     3.33
+    ],
+    [
+     "B5",
+     "H13",
+     4.93,
+     3.33
+    ],
+    [
+     "B6",
+     "H13",
+     2.9,
+     3.33
+    ],
+    [
+     "B7",
+     "H13",
+     1.865,
+     3.33
+    ],
+    [
+     "B8",
+     "H13",
+     2.77,
+     3.33
+    ],
+    [
+     "B9",
+     "H13",
+     2.745,
+     3.33
+    ],
+    [
+     "B10",
+     "H13",
+     1.803,
+     3.33
+    ],
+    [
+     "B11",
+     "H13",
+     1.9,
+     3.33
+    ],
+    [
+     "B12",
+     "H13",
+     1.9,
+     3.33
+    ],
+    [
+     "B13",
+     "H13",
+     1.803,
+     3.33
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     36
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     32
+    ],
+    [
+     "H1",
+     "H13",
+     0.953,
+     6.67
+    ],
+    [
+     "H2",
+     "H13",
+     0.925,
+     13.33
+    ],
+    [
+     "H3",
+     "H13",
+     0.671,
+     6.67
+    ],
+    [
+     "H4",
+     "H13",
+     0.642,
+     13.33
+    ],
+    [
+     "O1",
+     "H13",
+     2.46,
+     6.67
+    ],
+    [
+     "O2",
+     "H13",
+     2.46,
+     6.67
+    ],
+    [
+     "S1",
+     "H13",
+     0.366,
+     15
+    ],
+    [
+     "S2",
+     "H13",
+     0.366,
+     15
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     8
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     8
+    ],
+    [
+     "T1",
+     "H13",
+     2.9,
+     3.33
+    ],
+    [
+     "T2",
+     "H13",
+     4.93,
+     3.33
+    ],
+    [
+     "T3",
+     "H13",
+     2.24,
+     3.33
+    ],
+    [
+     "T4",
+     "H13",
+     2.975,
+     3.33
+    ],
+    [
+     "T5",
+     "H13",
+     2.69,
+     3.33
+    ],
+    [
+     "T6",
+     "H13",
+     2.175,
+     3.33
+    ],
+    [
+     "T7",
+     "H13",
+     1.693,
+     3.33
+    ],
+    [
+     "T8",
+     "H13",
+     1.9,
+     3.33
+    ],
+    [
+     "T9",
+     "H13",
+     1.9,
+     3.33
+    ],
+    [
+     "T10",
+     "H13",
+     1.693,
+     3.33
+    ],
+    [
+     "T11",
+     "H13",
+     1.865,
+     3.33
+    ],
+    [
+     "T12",
+     "H13",
+     2.57,
+     3.33
+    ],
+    [
+     "T13",
+     "H13",
+     2.545,
+     3.33
+    ],
+    [
+     "W1",
+     "H13",
+     1.96,
+     3.33
+    ],
+    [
+     "W2",
+     "H13",
+     1.96,
+     3.33
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.536,
+    "with_lap_t": 0.552
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-2",
+   "pages": [
+    366,
+    367
+   ],
+   "B": 2000,
+   "H": 1500,
+   "D": 3000,
+   "tT": 300,
+   "tB": 300,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 2.52,
+    "wall": 1.56,
+    "bot": 2.16,
+    "conc": 6.24,
+    "lean": 0.74,
+    "form": 18.497,
+    "steel": 0.612
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H13",
+     2.975,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     2.69,
+     4
+    ],
+    [
+     "B3",
+     "H13",
+     2.175,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.24,
+     4
+    ],
+    [
+     "B5",
+     "H13",
+     4.93,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     2.9,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     1.865,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     2.77,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     2.745,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     1.803,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     1.803,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     36
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     32
+    ],
+    [
+     "H1",
+     "H13",
+     0.953,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     0.925,
+     16
+    ],
+    [
+     "H3",
+     "H13",
+     0.671,
+     8
+    ],
+    [
+     "H4",
+     "H13",
+     0.642,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     2.46,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     2.46,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.366,
+     15
+    ],
+    [
+     "S2",
+     "H13",
+     0.366,
+     15
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     8
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     8
+    ],
+    [
+     "T1",
+     "H13",
+     2.9,
+     4
+    ],
+    [
+     "T2",
+     "H13",
+     4.93,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.24,
+     4
+    ],
+    [
+     "T4",
+     "H13",
+     2.975,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     2.69,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     2.175,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     1.693,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     1.693,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     1.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     2.57,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     2.545,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     1.96,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     1.96,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.594,
+    "with_lap_t": 0.612
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-3",
+   "pages": [
+    368,
+    369
+   ],
+   "B": 2000,
+   "H": 1500,
+   "D": 5000,
+   "tT": 350,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 2.88,
+    "wall": 1.56,
+    "bot": 2.88,
+    "conc": 7.32,
+    "lean": 0.74,
+    "form": 18.797,
+    "steel": 0.645
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H16",
+     5.03,
+     4
+    ],
+    [
+     "B1",
+     "H13",
+     3.035,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     2.81,
+     4
+    ],
+    [
+     "B3",
+     "H13",
+     2.235,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.34,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.0,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     1.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     2.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     2.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     1.883,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.06,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.06,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     1.883,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     72
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     38
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     32
+    ],
+    [
+     "H1",
+     "H13",
+     1.024,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     0.996,
+     16
+    ],
+    [
+     "H3",
+     "H13",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H13",
+     0.784,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     2.61,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     2.61,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.416,
+     15
+    ],
+    [
+     "S2",
+     "H13",
+     0.466,
+     15
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     8
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     8
+    ],
+    [
+     "T1",
+     "H13",
+     3.0,
+     4
+    ],
+    [
+     "T2",
+     "H13",
+     4.93,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.34,
+     4
+    ],
+    [
+     "T4",
+     "H13",
+     2.975,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     2.69,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     2.175,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     1.778,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     1.9,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     1.778,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     1.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     2.57,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     2.545,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.11,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.11,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.626,
+    "with_lap_t": 0.645
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-4",
+   "pages": [
+    370,
+    371
+   ],
+   "B": 2000,
+   "H": 1500,
+   "D": 7000,
+   "tT": 400,
+   "tB": 450,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.24,
+    "wall": 1.56,
+    "bot": 3.24,
+    "conc": 8.04,
+    "lean": 0.74,
+    "form": 18.997,
+    "steel": 0.66
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H16",
+     5.03,
+     4
+    ],
+    [
+     "B1",
+     "H13",
+     3.035,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     2.81,
+     4
+    ],
+    [
+     "B3",
+     "H13",
+     2.235,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.34,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.07,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     1.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     2.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     2.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     1.783,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.06,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.06,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     1.783,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     72
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     72
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     32
+    ],
+    [
+     "H1",
+     "H13",
+     1.095,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     1.067,
+     16
+    ],
+    [
+     "H3",
+     "H13",
+     0.883,
+     8
+    ],
+    [
+     "H4",
+     "H13",
+     0.854,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     2.71,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     2.71,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.466,
+     15
+    ],
+    [
+     "S2",
+     "H13",
+     0.516,
+     15
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     8
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     8
+    ],
+    [
+     "T1",
+     "H13",
+     3.16,
+     4
+    ],
+    [
+     "T2",
+     "H13",
+     5.05,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.43,
+     4
+    ],
+    [
+     "T4",
+     "H13",
+     2.975,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     2.69,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     2.175,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     1.948,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.09,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.08,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     1.948,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     1.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     2.57,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     2.545,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.21,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.21,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.641,
+    "with_lap_t": 0.66
+   },
+   "note": "T8 (2.090) and T9 (2.080) differ by 10 mm as printed (totals 8.360/8.320 consistent)."
+  },
+  {
+   "no": "H3-5",
+   "pages": [
+    372,
+    373
+   ],
+   "B": 2000,
+   "H": 1500,
+   "D": 10000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 300,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.728,
+    "wall": 1.5,
+    "bot": 3.24,
+    "conc": 8.468,
+    "lean": 0.74,
+    "form": 18.921,
+    "steel": 0.752
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     3.1,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     2.3,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     5.03,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.06,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.06,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.236,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.883,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "T2",
+     "H16",
+     5.18,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     3.025,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     2.225,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     2.94,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.445,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.135,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     1.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     2.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     2.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     1.963,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     1.963,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     78
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     72
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     32
+    ],
+    [
+     "O1",
+     "H13",
+     2.76,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     2.76,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     15
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     15
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     8
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     8
+    ],
+    [
+     "T1",
+     "H13",
+     3.19,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.46,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     2.79,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     1.913,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.1,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.1,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     1.913,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     1.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     2.52,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     2.495,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.26,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.26,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.73,
+    "with_lap_t": 0.752
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-6",
+   "pages": [
+    374,
+    375
+   ],
+   "B": 2500,
+   "H": 2000,
+   "D": 2000,
+   "tT": 300,
+   "tB": 300,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 2.97,
+    "wall": 2.16,
+    "bot": 2.61,
+    "conc": 7.74,
+    "lean": 0.89,
+    "form": 23.997,
+    "steel": 0.712
+   },
+   "sp": {
+    "topSlab": 150,
+    "botSlab": 150,
+    "wallOut": 150,
+    "wallIn": 300,
+    "midWall": 150
+   },
+   "bars": [
+    [
+     "B5",
+     "H16",
+     6.03,
+     3.33
+    ],
+    [
+     "B11",
+     "H16",
+     2.15,
+     3.33
+    ],
+    [
+     "B12",
+     "H16",
+     2.15,
+     3.33
+    ],
+    [
+     "T2",
+     "H16",
+     6.03,
+     3.33
+    ],
+    [
+     "B1",
+     "H13",
+     3.475,
+     3.33
+    ],
+    [
+     "B2",
+     "H13",
+     3.19,
+     3.33
+    ],
+    [
+     "B3",
+     "H13",
+     2.675,
+     3.33
+    ],
+    [
+     "B4",
+     "H13",
+     2.74,
+     3.33
+    ],
+    [
+     "B6",
+     "H13",
+     3.57,
+     3.33
+    ],
+    [
+     "B7",
+     "H13",
+     2.365,
+     3.33
+    ],
+    [
+     "B8",
+     "H13",
+     3.27,
+     3.33
+    ],
+    [
+     "B9",
+     "H13",
+     3.245,
+     3.33
+    ],
+    [
+     "B10",
+     "H13",
+     1.943,
+     3.33
+    ],
+    [
+     "B13",
+     "H13",
+     1.943,
+     3.33
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     96
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     90
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     44
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "H1",
+     "H13",
+     0.953,
+     6.67
+    ],
+    [
+     "H2",
+     "H13",
+     0.925,
+     13.33
+    ],
+    [
+     "H3",
+     "H13",
+     0.671,
+     6.67
+    ],
+    [
+     "H4",
+     "H13",
+     0.642,
+     13.33
+    ],
+    [
+     "O1",
+     "H13",
+     2.96,
+     6.67
+    ],
+    [
+     "O2",
+     "H13",
+     2.96,
+     6.67
+    ],
+    [
+     "R1",
+     "H13",
+     0.826,
+     6.67
+    ],
+    [
+     "S1",
+     "H13",
+     0.366,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.366,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     10
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     10
+    ],
+    [
+     "T1",
+     "H13",
+     3.5,
+     3.33
+    ],
+    [
+     "T3",
+     "H13",
+     2.67,
+     3.33
+    ],
+    [
+     "T4",
+     "H13",
+     3.475,
+     3.33
+    ],
+    [
+     "T5",
+     "H13",
+     3.19,
+     3.33
+    ],
+    [
+     "T6",
+     "H13",
+     2.675,
+     3.33
+    ],
+    [
+     "T7",
+     "H13",
+     1.943,
+     3.33
+    ],
+    [
+     "T8",
+     "H13",
+     2.15,
+     3.33
+    ],
+    [
+     "T9",
+     "H13",
+     2.15,
+     3.33
+    ],
+    [
+     "T10",
+     "H13",
+     1.943,
+     3.33
+    ],
+    [
+     "T11",
+     "H13",
+     2.065,
+     3.33
+    ],
+    [
+     "T12",
+     "H13",
+     3.37,
+     3.33
+    ],
+    [
+     "T13",
+     "H13",
+     3.045,
+     3.33
+    ],
+    [
+     "W1",
+     "H13",
+     2.46,
+     3.33
+    ],
+    [
+     "W2",
+     "H13",
+     2.46,
+     3.33
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.691,
+    "with_lap_t": 0.712
+   },
+   "note": "New mark R1 (L=826, a=226 b=300, 135deg bends) appears: extra corner bar at the right side wall / bottom-right outer corner in CYCLE-1 and CYCLE-3."
+  },
+  {
+   "no": "H3-7",
+   "pages": [
+    376,
+    377
+   ],
+   "B": 2500,
+   "H": 2000,
+   "D": 3000,
+   "tT": 300,
+   "tB": 350,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 2.97,
+    "wall": 2.16,
+    "bot": 3.045,
+    "conc": 8.175,
+    "lean": 0.89,
+    "form": 24.097,
+    "steel": 0.78
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H16",
+     6.03,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     6.03,
+     4
+    ],
+    [
+     "B1",
+     "H13",
+     3.475,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.19,
+     4
+    ],
+    [
+     "B3",
+     "H13",
+     2.675,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.74,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.57,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.365,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.27,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.245,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     1.943,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.31,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.31,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     1.943,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     96
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     90
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     46
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "H1",
+     "H13",
+     0.953,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     0.925,
+     16
+    ],
+    [
+     "H3",
+     "H13",
+     0.741,
+     8
+    ],
+    [
+     "H4",
+     "H13",
+     0.713,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     3.01,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.01,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.366,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.416,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     10
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     10
+    ],
+    [
+     "T1",
+     "H13",
+     3.55,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.72,
+     4
+    ],
+    [
+     "T4",
+     "H13",
+     3.475,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     3.19,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     2.675,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     1.943,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.15,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.15,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     1.943,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.065,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.37,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.045,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.51,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.51,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.757,
+    "with_lap_t": 0.78
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-8",
+   "pages": [
+    378,
+    379
+   ],
+   "B": 2500,
+   "H": 2000,
+   "D": 5000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 4.275,
+    "wall": 2.16,
+    "bot": 3.915,
+    "conc": 10.35,
+    "lean": 0.89,
+    "form": 24.597,
+    "steel": 0.888
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     3.6,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     2.8,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     6.03,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.31,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.31,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.137,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.883,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "T2",
+     "H16",
+     6.18,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     2.725,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.44,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.845,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.635,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.425,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.39,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.305,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.128,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.128,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     90
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     90
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     48
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "O1",
+     "H13",
+     3.26,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.26,
+     8
+    ],
+    [
+     "R1",
+     "H13",
+     0.826,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.366,
+     10
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     10
+    ],
+    [
+     "T1",
+     "H13",
+     3.79,
+     4
+    ],
+    [
+     "T3",
+     "H13",
+     2.96,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     3.29,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.083,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.53,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.53,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.083,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.065,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.37,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.045,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.76,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.76,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.862,
+    "with_lap_t": 0.888
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-9",
+   "pages": [
+    380,
+    381
+   ],
+   "B": 2500,
+   "H": 2000,
+   "D": 8000,
+   "tT": 500,
+   "tB": 500,
+   "tW": 350,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 4.913,
+    "wall": 2.275,
+    "bot": 4.4,
+    "conc": 11.588,
+    "lean": 0.9,
+    "form": 24.621,
+    "steel": 0.954
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     3.65,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     2.85,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     6.08,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.49,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     3.37,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.31,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.31,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.378,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.279,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.024,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.925,
+     16
+    ],
+    [
+     "T1",
+     "H16",
+     3.907,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     6.2,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.027,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     3.575,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.29,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     2.775,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.44,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     2.995,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     3.805,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.52,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.183,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.183,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     96
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     90
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     48
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "O1",
+     "H13",
+     3.36,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.36,
+     8
+    ],
+    [
+     "R1",
+     "H13",
+     0.883,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.569,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.569,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.419,
+     10
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     10
+    ],
+    [
+     "T7",
+     "H13",
+     2.303,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.53,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.53,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.303,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     1.965,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.42,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     2.995,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.86,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.86,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.926,
+    "with_lap_t": 0.954
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-10",
+   "pages": [
+    382,
+    383
+   ],
+   "B": 2500,
+   "H": 2000,
+   "D": 10000,
+   "tT": 550,
+   "tB": 550,
+   "tW": 400,
+   "tM": 300,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.585,
+    "wall": 2.38,
+    "bot": 4.895,
+    "conc": 12.86,
+    "lean": 0.91,
+    "form": 24.646,
+    "steel": 1.027
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     6.23,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     3.7,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     2.9,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.49,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     3.37,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.45,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.45,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.42,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.996,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.939,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     4.057,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     6.25,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.027,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     3.625,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.29,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     2.825,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.53,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.53,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.315,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     2.995,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.44,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     3.045,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     4.005,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.52,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.403,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.403,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     96
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     90
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     48
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     40
+    ],
+    [
+     "O1",
+     "H13",
+     3.46,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.46,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     10
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     10
+    ],
+    [
+     "T7",
+     "H13",
+     2.598,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.598,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.17,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     2.96,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     2.96,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.997,
+    "with_lap_t": 1.027
+   },
+   "note": "q.wall middle digit blurry (looks like 2.3?0); recorded 2.380 which matches conc total 12.860 and geometry (walls 2x400+2x300, height 1.7 m)."
+  },
+  {
+   "no": "H3-11",
+   "pages": [
+    384,
+    385
+   ],
+   "B": 3000,
+   "H": 2500,
+   "D": 2000,
+   "tT": 350,
+   "tB": 350,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.93,
+    "wall": 2.76,
+    "bot": 3.57,
+    "conc": 10.26,
+    "lean": 1.04,
+    "form": 29.697,
+    "steel": 0.912
+   },
+   "sp": {
+    "topSlab": 150,
+    "botSlab": 150,
+    "wallOut": 150,
+    "wallIn": 300,
+    "midWall": 150
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     4.025,
+     3.33
+    ],
+    [
+     "B3",
+     "H16",
+     3.225,
+     3.33
+    ],
+    [
+     "B4",
+     "H16",
+     3.392,
+     3.33
+    ],
+    [
+     "B5",
+     "H16",
+     7.0,
+     3.33
+    ],
+    [
+     "B6",
+     "H16",
+     4.152,
+     3.33
+    ],
+    [
+     "B11",
+     "H16",
+     2.56,
+     3.33
+    ],
+    [
+     "B12",
+     "H16",
+     2.56,
+     3.33
+    ],
+    [
+     "H1",
+     "H16",
+     1.024,
+     6.67
+    ],
+    [
+     "H2",
+     "H16",
+     0.996,
+     13.33
+    ],
+    [
+     "H3",
+     "H16",
+     0.741,
+     6.67
+    ],
+    [
+     "H4",
+     "H16",
+     0.713,
+     13.33
+    ],
+    [
+     "R1",
+     "H16",
+     0.862,
+     6.67
+    ],
+    [
+     "T1",
+     "H16",
+     4.052,
+     3.33
+    ],
+    [
+     "T2",
+     "H16",
+     7.0,
+     3.33
+    ],
+    [
+     "T3",
+     "H16",
+     3.292,
+     3.33
+    ],
+    [
+     "T4",
+     "H16",
+     4.125,
+     3.33
+    ],
+    [
+     "T6",
+     "H16",
+     3.225,
+     3.33
+    ],
+    [
+     "B2",
+     "H13",
+     3.79,
+     3.33
+    ],
+    [
+     "B7",
+     "H13",
+     2.865,
+     3.33
+    ],
+    [
+     "B8",
+     "H13",
+     3.77,
+     3.33
+    ],
+    [
+     "B9",
+     "H13",
+     3.745,
+     3.33
+    ],
+    [
+     "B10",
+     "H13",
+     2.193,
+     3.33
+    ],
+    [
+     "B13",
+     "H13",
+     2.193,
+     3.33
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     56
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     52
+    ],
+    [
+     "O1",
+     "H13",
+     3.56,
+     6.67
+    ],
+    [
+     "O2",
+     "H13",
+     3.56,
+     6.67
+    ],
+    [
+     "S1",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     3.69,
+     3.33
+    ],
+    [
+     "T7",
+     "H13",
+     2.193,
+     3.33
+    ],
+    [
+     "T8",
+     "H13",
+     2.56,
+     3.33
+    ],
+    [
+     "T9",
+     "H13",
+     2.56,
+     3.33
+    ],
+    [
+     "T10",
+     "H13",
+     2.193,
+     3.33
+    ],
+    [
+     "T11",
+     "H13",
+     2.545,
+     3.33
+    ],
+    [
+     "T12",
+     "H13",
+     3.89,
+     3.33
+    ],
+    [
+     "T13",
+     "H13",
+     3.545,
+     3.33
+    ],
+    [
+     "W1",
+     "H13",
+     3.055,
+     3.33
+    ],
+    [
+     "W2",
+     "H13",
+     3.055,
+     3.33
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.886,
+    "with_lap_t": 0.912
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-12",
+   "pages": [
+    386,
+    387
+   ],
+   "B": 3000,
+   "H": 2500,
+   "D": 3000,
+   "tT": 350,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.93,
+    "wall": 2.76,
+    "bot": 4.08,
+    "conc": 10.77,
+    "lean": 1.04,
+    "form": 29.797,
+    "steel": 0.981
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     4.1,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.3,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.392,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     7.0,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.152,
+     4
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "T1",
+     "H16",
+     4.102,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.0,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.342,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.193,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.193,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     56
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     52
+    ],
+    [
+     "H1",
+     "H13",
+     1.024,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     0.996,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     3.61,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.61,
+     8
+    ],
+    [
+     "R1",
+     "H13",
+     0.897,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.469,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T4",
+     "H13",
+     3.975,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     3.69,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     3.175,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.193,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.193,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.545,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.89,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.545,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     3.105,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     3.105,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.952,
+    "with_lap_t": 0.981
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-13",
+   "pages": [
+    388,
+    389
+   ],
+   "B": 3000,
+   "H": 2500,
+   "D": 5000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 300,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.078,
+    "wall": 2.7,
+    "bot": 4.59,
+    "conc": 12.368,
+    "lean": 1.04,
+    "form": 29.921,
+    "steel": 1.118
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.1,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.1,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.3,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.442,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.372,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.236,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.883,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.879,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     4.377,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.15,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.347,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.025,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.225,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     3.255,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     3.255,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.293,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.293,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     108
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     52
+    ],
+    [
+     "O1",
+     "H13",
+     3.76,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.76,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     3.79,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.333,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.333,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.445,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.495,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.085,
+    "with_lap_t": 1.118
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-14",
+   "pages": [
+    390,
+    391
+   ],
+   "B": 3000,
+   "H": 2500,
+   "D": 8000,
+   "tT": 550,
+   "tB": 550,
+   "tW": 400,
+   "tM": 300,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 6.41,
+    "wall": 3.08,
+    "bot": 5.72,
+    "conc": 15.21,
+    "lean": 1.06,
+    "form": 30.146,
+    "steel": 1.164
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.23,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.2,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.4,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.99,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     3.87,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.42,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.996,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.939,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     4.607,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.25,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.477,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.125,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.79,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.325,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.345,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     3.495,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B4",
+     "H13",
+     3.495,
+     4
+    ],
+    [
+     "B6",
+     "H13",
+     4.555,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.02,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.593,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.593,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     108
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     52
+    ],
+    [
+     "O1",
+     "H13",
+     3.96,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     3.96,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     12
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     12
+    ],
+    [
+     "T7",
+     "H13",
+     2.723,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.723,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.14,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     3.46,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     3.46,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.13,
+    "with_lap_t": 1.164
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-15",
+   "pages": [
+    392,
+    393
+   ],
+   "B": 3000,
+   "H": 2500,
+   "D": 10000,
+   "tT": 700,
+   "tB": 700,
+   "tW": 550,
+   "tM": 400,
+   "hT": 350,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 8.663,
+    "wall": 4.085,
+    "bot": 7.63,
+    "conc": 20.378,
+    "lean": 1.11,
+    "form": 30.57,
+    "steel": 1.59
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.5,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     2.8,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     2.8,
+     4
+    ],
+    [
+     "R1",
+     "H19",
+     1.109,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     5.199,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     7.64,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     3.639,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.4,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.04,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.6,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.557,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.067,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.99,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.03,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     110
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     104
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     64
+    ],
+    [
+     "D4",
+     "H16",
+     1.07,
+     52
+    ],
+    [
+     "H1",
+     "H16",
+     2.085,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.844,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     1.349,
+     16
+    ],
+    [
+     "T4",
+     "H16",
+     4.325,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.89,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     3.1,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.08,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.08,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.1,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.325,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.17,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     3.605,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.08,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.988,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.988,
+     4
+    ],
+    [
+     "O1",
+     "H13",
+     4.26,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.26,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.772,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.769,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.622,
+     12
+    ],
+    [
+     "S4",
+     "H13",
+     1.218,
+     12
+    ],
+    [
+     "W1",
+     "H13",
+     3.76,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     3.76,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.544,
+    "with_lap_t": 1.59
+   },
+   "note": "Distribution bars D1-D4 are H16 in this drawing. S1=772 and S2=769 as printed (totals consistent)."
+  },
+  {
+   "no": "H3-16",
+   "pages": [
+    394,
+    395
+   ],
+   "B": 3000,
+   "H": 3000,
+   "D": 2000,
+   "tT": 350,
+   "tB": 350,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.93,
+    "wall": 3.36,
+    "bot": 3.57,
+    "conc": 10.86,
+    "lean": 1.04,
+    "form": 33.697,
+    "steel": 0.975
+   },
+   "sp": {
+    "topSlab": 150,
+    "botSlab": 150,
+    "wallOut": 150,
+    "wallIn": 300,
+    "midWall": 150
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.1,
+     3.33
+    ],
+    [
+     "B1",
+     "H16",
+     4.025,
+     3.33
+    ],
+    [
+     "B3",
+     "H16",
+     3.225,
+     3.33
+    ],
+    [
+     "B4",
+     "H16",
+     3.542,
+     3.33
+    ],
+    [
+     "B6",
+     "H16",
+     4.572,
+     3.33
+    ],
+    [
+     "H1",
+     "H16",
+     1.024,
+     6.67
+    ],
+    [
+     "H2",
+     "H16",
+     0.996,
+     13.33
+    ],
+    [
+     "H3",
+     "H16",
+     0.741,
+     6.67
+    ],
+    [
+     "H4",
+     "H16",
+     0.713,
+     13.33
+    ],
+    [
+     "R1",
+     "H16",
+     0.862,
+     13.33
+    ],
+    [
+     "T1",
+     "H16",
+     4.452,
+     3.33
+    ],
+    [
+     "T2",
+     "H16",
+     7.0,
+     3.33
+    ],
+    [
+     "T3",
+     "H16",
+     3.422,
+     3.33
+    ],
+    [
+     "T4",
+     "H16",
+     4.125,
+     3.33
+    ],
+    [
+     "T6",
+     "H16",
+     3.125,
+     3.33
+    ],
+    [
+     "W1",
+     "H16",
+     3.555,
+     3.33
+    ],
+    [
+     "W2",
+     "H16",
+     3.555,
+     3.33
+    ],
+    [
+     "B2",
+     "H13",
+     3.79,
+     3.33
+    ],
+    [
+     "B7",
+     "H13",
+     2.865,
+     3.33
+    ],
+    [
+     "B8",
+     "H13",
+     3.77,
+     3.33
+    ],
+    [
+     "B9",
+     "H13",
+     3.745,
+     3.33
+    ],
+    [
+     "B10",
+     "H13",
+     2.318,
+     3.33
+    ],
+    [
+     "B11",
+     "H13",
+     2.4,
+     3.33
+    ],
+    [
+     "B12",
+     "H13",
+     2.4,
+     3.33
+    ],
+    [
+     "B13",
+     "H13",
+     2.318,
+     3.33
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D2",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     64
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "O1",
+     "H13",
+     4.06,
+     6.67
+    ],
+    [
+     "O2",
+     "H13",
+     4.06,
+     6.67
+    ],
+    [
+     "S1",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     3.79,
+     3.33
+    ],
+    [
+     "T7",
+     "H13",
+     2.318,
+     3.33
+    ],
+    [
+     "T8",
+     "H13",
+     2.4,
+     3.33
+    ],
+    [
+     "T9",
+     "H13",
+     2.4,
+     3.33
+    ],
+    [
+     "T10",
+     "H13",
+     2.318,
+     3.33
+    ],
+    [
+     "T11",
+     "H13",
+     2.595,
+     3.33
+    ],
+    [
+     "T12",
+     "H13",
+     3.84,
+     3.33
+    ],
+    [
+     "T13",
+     "H13",
+     3.545,
+     3.33
+    ]
+   ],
+   "steelTable": {
+    "total_t": 0.947,
+    "with_lap_t": 0.975
+   },
+   "note": "R1 count 13.33 (vs 6.67/8 in earlier drawings)."
+  },
+  {
+   "no": "H3-17",
+   "pages": [
+    396,
+    397
+   ],
+   "B": 3000,
+   "H": 3000,
+   "D": 3000,
+   "tT": 350,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 3.93,
+    "wall": 3.36,
+    "bot": 4.08,
+    "conc": 11.37,
+    "lean": 1.04,
+    "form": 33.797,
+    "steel": 1.051
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B1",
+     "H16",
+     4.1,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.3,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.492,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     7.0,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.522,
+     4
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.883,
+     8
+    ],
+    [
+     "R2",
+     "H16",
+     0.847,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     4.502,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.0,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.472,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     3.605,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     3.605,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.925,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.89,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.368,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.368,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.05,
+     102
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     64
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "H1",
+     "H13",
+     1.024,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     0.996,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     4.11,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.11,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.419,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.469,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T4",
+     "H13",
+     3.975,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     3.69,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     3.175,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.318,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.56,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.318,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.595,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.84,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.545,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.02,
+    "with_lap_t": 1.051
+   },
+   "note": "New mark R2 (L=847, a=247 b=300) appears: R1 at top-left outer corner and R2 at bottom-right outer corner in CYCLE-1 (mirrored in CYCLE-3)."
+  },
+  {
+   "no": "H3-18",
+   "pages": [
+    398,
+    399
+   ],
+   "B": 3000,
+   "H": 3000,
+   "D": 5000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 350,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.148,
+    "wall": 3.575,
+    "bot": 4.635,
+    "conc": 13.358,
+    "lean": 1.05,
+    "form": 33.921,
+    "steel": 1.222
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.15,
+     4
+    ],
+    [
+     "R2",
+     "H19",
+     0.855,
+     8
+    ],
+    [
+     "B1",
+     "H16",
+     4.15,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.35,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.642,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.722,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "D4",
+     "H16",
+     1.07,
+     60
+    ],
+    [
+     "H1",
+     "H16",
+     1.307,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.953,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.996,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     4.727,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.2,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.547,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.275,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.275,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     3.76,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     3.76,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     2.875,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     3.805,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.518,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.518,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     108
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     68
+    ],
+    [
+     "O1",
+     "H13",
+     4.26,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.26,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.419,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     3.59,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.628,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.628,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.495,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.89,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.495,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.187,
+    "with_lap_t": 1.222
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-19",
+   "pages": [
+    400,
+    401
+   ],
+   "B": 3000,
+   "H": 3000,
+   "D": 7000,
+   "tT": 550,
+   "tB": 550,
+   "tW": 400,
+   "tM": 300,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 6.41,
+    "wall": 3.78,
+    "bot": 5.72,
+    "conc": 15.91,
+    "lean": 1.06,
+    "form": 34.146,
+    "steel": 1.373
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H22",
+     0.939,
+     8
+    ],
+    [
+     "B5",
+     "H19",
+     7.2,
+     4
+    ],
+    [
+     "O1",
+     "H19",
+     4.46,
+     8
+    ],
+    [
+     "O2",
+     "H19",
+     4.46,
+     8
+    ],
+    [
+     "R1",
+     "H19",
+     1.109,
+     8
+    ],
+    [
+     "W1",
+     "H19",
+     3.96,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     3.96,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.2,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.4,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.747,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.837,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.89,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     3.87,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.7,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.42,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.996,
+     16
+    ],
+    [
+     "T1",
+     "H16",
+     4.842,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.25,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.712,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.405,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.51,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.325,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.78,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     3.94,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.12,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.698,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.698,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     108
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     102
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     68
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "S1",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.619,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.036,
+     14
+    ],
+    [
+     "T7",
+     "H13",
+     2.728,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.728,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.265,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.07,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     3.445,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.333,
+    "with_lap_t": 1.373
+   },
+   "note": "H22 subtotal uses 6% 할증 (0.024(6%)); other diameters 3%."
+  },
+  {
+   "no": "H3-20",
+   "pages": [
+    402,
+    403
+   ],
+   "B": 3000,
+   "H": 3000,
+   "D": 10000,
+   "tT": 700,
+   "tB": 700,
+   "tW": 550,
+   "tM": 400,
+   "hT": 350,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 8.663,
+    "wall": 5.035,
+    "bot": 7.63,
+    "conc": 21.328,
+    "lean": 1.11,
+    "form": 34.57,
+    "steel": 1.687
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.5,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     3.22,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.22,
+     4
+    ],
+    [
+     "R1",
+     "H19",
+     1.307,
+     8
+    ],
+    [
+     "R2",
+     "H19",
+     1.109,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     5.549,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     3.789,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.5,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.04,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.5,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.707,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.417,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.75,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.03,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     3.155,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.155,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     110
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     104
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     72
+    ],
+    [
+     "D4",
+     "H16",
+     1.07,
+     60
+    ],
+    [
+     "H1",
+     "H16",
+     2.085,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.844,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     1.349,
+     16
+    ],
+    [
+     "T2",
+     "H16",
+     7.64,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.605,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     3.71,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.425,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     3.245,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     2.88,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     2.88,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.245,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.245,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.25,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     3.605,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     4.26,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     4.26,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.32,
+     4
+    ],
+    [
+     "O1",
+     "H13",
+     4.76,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.76,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.772,
+     21
+    ],
+    [
+     "S2",
+     "H13",
+     0.769,
+     21
+    ],
+    [
+     "S3",
+     "H13",
+     0.622,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.218,
+     14
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.638,
+    "with_lap_t": 1.687
+   },
+   "note": "Page 405 is a duplicate scan of sheet H3-20 -2 (identical table values)."
+  },
+  {
+   "no": "H3-21",
+   "pages": [
+    406,
+    407
+   ],
+   "B": 3500,
+   "H": 3000,
+   "D": 2000,
+   "tT": 400,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.04,
+    "wall": 3.36,
+    "bot": 4.68,
+    "conc": 13.08,
+    "lean": 1.19,
+    "form": 35.397,
+    "steel": 1.186
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.9,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.8,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.6,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.792,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.122,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.095,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.067,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.897,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.077,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.95,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.747,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.725,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     3.225,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.39,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     4.505,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.493,
+     4
+    ],
+    [
+     "B11",
+     "H13",
+     2.65,
+     4
+    ],
+    [
+     "B12",
+     "H13",
+     2.65,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.493,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     64
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "O1",
+     "H13",
+     4.16,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.16,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     4.29,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.583,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.83,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.83,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.583,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.965,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.27,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.245,
+     4
+    ],
+    [
+     "W1",
+     "H13",
+     3.655,
+     4
+    ],
+    [
+     "W2",
+     "H13",
+     3.655,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.151,
+    "with_lap_t": 1.186
+   },
+   "note": "Page 404 is a duplicate scan of sheet H3-21 -1 (same values as 406). Middle-wall spacing header on -1 reads @125 (외측)/@125 (내측) instead of 좌측/우측."
+  },
+  {
+   "no": "H3-22",
+   "pages": [
+    408,
+    409
+   ],
+   "B": 3500,
+   "H": 3000,
+   "D": 3000,
+   "tT": 400,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.04,
+    "wall": 3.36,
+    "bot": 4.68,
+    "conc": 13.08,
+    "lean": 1.19,
+    "form": 35.397,
+    "steel": 1.269
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.9,
+     4
+    ],
+    [
+     "R2",
+     "H19",
+     0.897,
+     8
+    ],
+    [
+     "B1",
+     "H16",
+     4.8,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.6,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.792,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.122,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     3.29,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.57,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.095,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.067,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.911,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.077,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.95,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.747,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.725,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     3.655,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     3.655,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.52,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.493,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.493,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     64
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "O1",
+     "H13",
+     4.16,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.16,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T5",
+     "H13",
+     4.29,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.583,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.583,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.965,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.27,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.245,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.232,
+    "with_lap_t": 1.269
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-23",
+   "pages": [
+    410,
+    411
+   ],
+   "B": 3500,
+   "H": 3000,
+   "D": 5000,
+   "tT": 550,
+   "tB": 550,
+   "tW": 400,
+   "tM": 300,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 7.235,
+    "wall": 3.78,
+    "bot": 6.545,
+    "conc": 17.56,
+    "lean": 1.21,
+    "form": 35.646,
+    "steel": 1.354
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.95,
+     4
+    ],
+    [
+     "R1",
+     "H19",
+     0.939,
+     8
+    ],
+    [
+     "B1",
+     "H16",
+     4.9,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.7,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.032,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.312,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     3.19,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.57,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.95,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.95,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.42,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.996,
+     16
+    ],
+    [
+     "T1",
+     "H16",
+     5.287,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     8.0,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     4.007,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.825,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     4.29,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.625,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.815,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.195,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     3.96,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     3.96,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.62,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.828,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.828,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     126
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     68
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "O1",
+     "H13",
+     4.46,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.46,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.619,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.619,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     14
+    ],
+    [
+     "T7",
+     "H13",
+     2.843,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.843,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.47,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.315,
+    "with_lap_t": 1.354
+   },
+   "note": "H3 length last digit blurry (looks 1.165/1.166); recorded 1.166 = 9.328/8 total and same as other drawings. No R2 in this table (only R1)."
+  },
+  {
+   "no": "H3-24",
+   "pages": [
+    412,
+    413
+   ],
+   "B": 3500,
+   "H": 3000,
+   "D": 7000,
+   "tT": 650,
+   "tB": 650,
+   "tW": 500,
+   "tM": 350,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 8.71,
+    "wall": 4.59,
+    "bot": 7.93,
+    "conc": 21.23,
+    "lean": 1.24,
+    "form": 36.046,
+    "steel": 1.713
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     7.775,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     3.0,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.0,
+     4
+    ],
+    [
+     "R2",
+     "H19",
+     1.053,
+     8
+    ],
+    [
+     "T2",
+     "H19",
+     7.945,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     5.125,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.49,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.725,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.222,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.727,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     3.1,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.655,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     128
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     122
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     72
+    ],
+    [
+     "H1",
+     "H16",
+     1.873,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.632,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.448,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     1.222,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.832,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     4.327,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     5.05,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     4.34,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.65,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     3.075,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.075,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.725,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.595,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.28,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     4.16,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     4.16,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.745,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     3.038,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     3.038,
+     4
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     60
+    ],
+    [
+     "O1",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.719,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.719,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.569,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     14
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.663,
+    "with_lap_t": 1.713
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-25",
+   "pages": [
+    414,
+    415
+   ],
+   "B": 3500,
+   "H": 3000,
+   "D": 10000,
+   "tT": 800,
+   "tB": 850,
+   "tW": 600,
+   "tM": 400,
+   "hT": 350,
+   "hB": 0,
+   "cO": 80,
+   "cI": 90,
+   "q": {
+    "top": 11.068,
+    "wall": 5.3,
+    "bot": 10.625,
+    "conc": 26.993,
+    "lean": 1.27,
+    "form": 36.57,
+    "steel": 2.105
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H22",
+     8.0,
+     4
+    ],
+    [
+     "B1",
+     "H19",
+     5.3,
+     4
+    ],
+    [
+     "B3",
+     "H19",
+     3.9,
+     4
+    ],
+    [
+     "B7",
+     "H19",
+     3.06,
+     4
+    ],
+    [
+     "B9",
+     "H19",
+     4.78,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     3.47,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.47,
+     4
+    ],
+    [
+     "H1",
+     "H19",
+     2.269,
+     8
+    ],
+    [
+     "H2",
+     "H19",
+     1.972,
+     16
+    ],
+    [
+     "H3",
+     "H19",
+     1.844,
+     8
+    ],
+    [
+     "H4",
+     "H19",
+     1.547,
+     16
+    ],
+    [
+     "R2",
+     "H19",
+     1.194,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     6.129,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     7.98,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     4.709,
+     4
+    ],
+    [
+     "T4",
+     "H19",
+     5.215,
+     4
+    ],
+    [
+     "T5",
+     "H19",
+     4.49,
+     4
+    ],
+    [
+     "T6",
+     "H19",
+     3.815,
+     4
+    ],
+    [
+     "T7",
+     "H19",
+     3.663,
+     4
+    ],
+    [
+     "T10",
+     "H19",
+     3.663,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.66,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.717,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     6.207,
+     4
+    ],
+    [
+     "B8",
+     "H16",
+     4.98,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     128
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     122
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     72
+    ],
+    [
+     "D4",
+     "H16",
+     1.07,
+     60
+    ],
+    [
+     "R1",
+     "H16",
+     1.364,
+     8
+    ],
+    [
+     "T8",
+     "H16",
+     3.33,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.33,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.575,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.71,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.295,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     4.49,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     4.49,
+     4
+    ],
+    [
+     "O1",
+     "H13",
+     4.99,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.99,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.862,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.912,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.662,
+     14
+    ],
+    [
+     "S4",
+     "H13",
+     1.218,
+     14
+    ]
+   ],
+   "steelTable": {
+    "total_t": 2.041,
+    "with_lap_t": 2.105
+   },
+   "note": "Cover 외측 = 80 mm (not 70). H22 subtotal with 6% 할증 (0.103(6%))."
+  },
+  {
+   "no": "H3-26",
+   "pages": [
+    416,
+    417
+   ],
+   "B": 3500,
+   "H": 3500,
+   "D": 2000,
+   "tT": 400,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.04,
+    "wall": 3.96,
+    "bot": 4.68,
+    "conc": 13.68,
+    "lean": 1.19,
+    "form": 39.397,
+    "steel": 1.251
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H19",
+     0.897,
+     8
+    ],
+    [
+     "W1",
+     "H19",
+     4.155,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.155,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.9,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.5,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     3.777,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     8.0,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.307,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.65,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.65,
+     4
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     0.911,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.542,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.95,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     3.812,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     3.125,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.39,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     4.605,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.618,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.618,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     76
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "H1",
+     "H13",
+     1.095,
+     8
+    ],
+    [
+     "H2",
+     "H13",
+     1.067,
+     16
+    ],
+    [
+     "O1",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.469,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.369,
+     18
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     18
+    ],
+    [
+     "T4",
+     "H13",
+     4.775,
+     4
+    ],
+    [
+     "T5",
+     "H13",
+     4.19,
+     4
+    ],
+    [
+     "T6",
+     "H13",
+     3.375,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.708,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     2.83,
+     4
+    ],
+    [
+     "T9",
+     "H13",
+     2.83,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.708,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.27,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.345,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.215,
+    "with_lap_t": 1.251
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-27",
+   "pages": [
+    418,
+    419
+   ],
+   "B": 3500,
+   "H": 3500,
+   "D": 3000,
+   "tT": 400,
+   "tB": 400,
+   "tW": 300,
+   "tM": 300,
+   "hT": 200,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 5.04,
+    "wall": 3.96,
+    "bot": 4.68,
+    "conc": 13.68,
+    "lean": 1.19,
+    "form": 39.397,
+    "steel": 1.398
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H22",
+     0.897,
+     8
+    ],
+    [
+     "B4",
+     "H19",
+     4.014,
+     4
+    ],
+    [
+     "B5",
+     "H19",
+     7.97,
+     4
+    ],
+    [
+     "B6",
+     "H19",
+     5.434,
+     4
+    ],
+    [
+     "R1",
+     "H19",
+     0.911,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     5.439,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     4.199,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     4.142,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.142,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     4.9,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.5,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.095,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.067,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     0.812,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.784,
+     16
+    ],
+    [
+     "T2",
+     "H16",
+     7.92,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.825,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.425,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B7",
+     "H13",
+     3.125,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.39,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     4.605,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     2.668,
+     4
+    ],
+    [
+     "B13",
+     "H13",
+     2.668,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     76
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "O1",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.66,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.472,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.472,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.372,
+     18
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     18
+    ],
+    [
+     "T5",
+     "H13",
+     4.29,
+     4
+    ],
+    [
+     "T7",
+     "H13",
+     2.778,
+     4
+    ],
+    [
+     "T10",
+     "H13",
+     2.778,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     2.865,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     4.27,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.345,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.356,
+    "with_lap_t": 1.398
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-28",
+   "pages": [
+    420,
+    421
+   ],
+   "B": 3500,
+   "H": 3500,
+   "D": 5000,
+   "tT": 550,
+   "tB": 550,
+   "tW": 400,
+   "tM": 300,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 7.235,
+    "wall": 4.48,
+    "bot": 6.545,
+    "conc": 18.26,
+    "lean": 1.21,
+    "form": 39.646,
+    "steel": 1.474
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H19",
+     8.0,
+     4
+    ],
+    [
+     "R2",
+     "H19",
+     0.939,
+     8
+    ],
+    [
+     "W1",
+     "H19",
+     4.46,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.46,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     5.0,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.6,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.087,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.637,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     3.1,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.68,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     2.89,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     2.81,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     2.89,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.59,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.42,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.166,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.996,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     1.109,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.622,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     7.95,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     4.292,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.925,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     4.29,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.525,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     3.0,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.03,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.0,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.725,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.305,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.44,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.62,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     126
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     120
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "O1",
+     "H13",
+     4.96,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     4.96,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.619,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.619,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     18
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     18
+    ],
+    [
+     "T12",
+     "H13",
+     4.47,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.432,
+    "with_lap_t": 1.474
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-29",
+   "pages": [
+    422,
+    423
+   ],
+   "B": 3500,
+   "H": 3500,
+   "D": 7000,
+   "tT": 650,
+   "tB": 650,
+   "tW": 500,
+   "tM": 350,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 8.71,
+    "wall": 5.44,
+    "bot": 7.93,
+    "conc": 22.08,
+    "lean": 1.24,
+    "form": 40.046,
+    "steel": 1.912
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H22",
+     1.053,
+     8
+    ],
+    [
+     "B5",
+     "H19",
+     7.795,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     3.0,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.0,
+     4
+    ],
+    [
+     "R1",
+     "H19",
+     1.222,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     6.049,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     7.965,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     4.664,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     4.66,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.66,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     5.125,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.49,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     3.725,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     5.417,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     5.112,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     3.0,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.755,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     128
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     122
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     84
+    ],
+    [
+     "D4",
+     "H16",
+     1.07,
+     72
+    ],
+    [
+     "H1",
+     "H16",
+     1.873,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.632,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.448,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "T4",
+     "H16",
+     5.05,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     4.34,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     3.65,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     3.27,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.27,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.625,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.595,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.38,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     4.745,
+     4
+    ],
+    [
+     "O1",
+     "H13",
+     5.16,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.16,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.722,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.719,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.572,
+     18
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     18
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.856,
+    "with_lap_t": 1.912
+   },
+   "note": "B4 (5.417) longer than B6 (5.112) here, as printed (totals consistent)."
+  },
+  {
+   "no": "H3-30",
+   "pages": [
+    424,
+    425
+   ],
+   "B": 3500,
+   "H": 3500,
+   "D": 10000,
+   "tT": 800,
+   "tB": 850,
+   "tW": 600,
+   "tM": 400,
+   "hT": 350,
+   "hB": 0,
+   "cO": 80,
+   "cI": 90,
+   "q": {
+    "top": 11.068,
+    "wall": 6.3,
+    "bot": 10.625,
+    "conc": 27.993,
+    "lean": 1.27,
+    "form": 40.57,
+    "steel": 2.205
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "B5",
+     "H22",
+     7.97,
+     4
+    ],
+    [
+     "B11",
+     "H22",
+     3.47,
+     4
+    ],
+    [
+     "B12",
+     "H22",
+     3.47,
+     4
+    ],
+    [
+     "R2",
+     "H22",
+     1.194,
+     8
+    ],
+    [
+     "B1",
+     "H19",
+     5.3,
+     4
+    ],
+    [
+     "B3",
+     "H19",
+     3.9,
+     4
+    ],
+    [
+     "B4",
+     "H19",
+     5.729,
+     4
+    ],
+    [
+     "B6",
+     "H19",
+     5.689,
+     4
+    ],
+    [
+     "H1",
+     "H19",
+     2.269,
+     8
+    ],
+    [
+     "H2",
+     "H19",
+     1.972,
+     16
+    ],
+    [
+     "H3",
+     "H19",
+     1.844,
+     8
+    ],
+    [
+     "H4",
+     "H19",
+     1.547,
+     16
+    ],
+    [
+     "R1",
+     "H19",
+     1.364,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     6.484,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     7.98,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     4.864,
+     4
+    ],
+    [
+     "T4",
+     "H19",
+     5.215,
+     4
+    ],
+    [
+     "T5",
+     "H19",
+     4.49,
+     4
+    ],
+    [
+     "T6",
+     "H19",
+     3.815,
+     4
+    ],
+    [
+     "T7",
+     "H19",
+     3.538,
+     4
+    ],
+    [
+     "T10",
+     "H19",
+     3.538,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     4.99,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.99,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.66,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     2.9,
+     4
+    ],
+    [
+     "B8",
+     "H16",
+     4.86,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     4.82,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     3.455,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.455,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     128
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     122
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     84
+    ],
+    [
+     "T8",
+     "H16",
+     3.33,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.33,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     2.475,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     4.71,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     4.395,
+     4
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     72
+    ],
+    [
+     "O1",
+     "H13",
+     5.49,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.49,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.862,
+     24
+    ],
+    [
+     "S2",
+     "H13",
+     0.912,
+     24
+    ],
+    [
+     "S3",
+     "H13",
+     0.662,
+     18
+    ],
+    [
+     "S4",
+     "H13",
+     1.218,
+     18
+    ]
+   ],
+   "steelTable": {
+    "total_t": 2.135,
+    "with_lap_t": 2.205
+   },
+   "note": "Cover 외측 = 80 mm. H22 subtotal with 6% 할증."
+  },
+  {
+   "no": "H3-31",
+   "pages": [
+    426,
+    427
+   ],
+   "B": 4000,
+   "H": 4000,
+   "D": 2000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 400,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 6.568,
+    "wall": 5.25,
+    "bot": 6.03,
+    "conc": 17.848,
+    "lean": 1.36,
+    "form": 44.921,
+    "steel": 1.477
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H19",
+     0.883,
+     8
+    ],
+    [
+     "B1",
+     "H16",
+     5.5,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     4.1,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.357,
+     4
+    ],
+    [
+     "B5",
+     "H16",
+     4.8,
+     4
+    ],
+    [
+     "B6",
+     "H16",
+     4.79,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     5.867,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     3.06,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.06,
+     4
+    ],
+    [
+     "B14",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.378,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.024,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     1.024,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     5.972,
+     4
+    ],
+    [
+     "T2",
+     "H16",
+     4.95,
+     4
+    ],
+    [
+     "T3",
+     "H16",
+     4.94,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.442,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     5.425,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     4.025,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "W1",
+     "H16",
+     4.76,
+     4
+    ],
+    [
+     "W2",
+     "H16",
+     4.76,
+     4
+    ],
+    [
+     "B2",
+     "H13",
+     4.94,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.525,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     4.99,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     5.105,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     138
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     132
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     88
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "O1",
+     "H13",
+     5.26,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.26,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     30
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     30
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     20
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     20
+    ],
+    [
+     "T6",
+     "H13",
+     4.79,
+     4
+    ],
+    [
+     "T8",
+     "H13",
+     3.148,
+     4
+    ],
+    [
+     "T11",
+     "H13",
+     3.148,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.215,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.87,
+     4
+    ],
+    [
+     "T14",
+     "H13",
+     4.795,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.434,
+    "with_lap_t": 1.477
+   },
+   "note": "Different bar-mark scheme from B=4.0m drawings onward (B1-B14, T1-T14; the 6-m-long single-piece B5/T2 bar is replaced by shorter lapped pieces) - see roles_B4000."
+  },
+  {
+   "no": "H3-32",
+   "pages": [
+    428,
+    429
+   ],
+   "B": 4000,
+   "H": 4000,
+   "D": 3000,
+   "tT": 450,
+   "tB": 450,
+   "tW": 400,
+   "tM": 300,
+   "hT": 250,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 6.568,
+    "wall": 5.25,
+    "bot": 6.03,
+    "conc": 17.848,
+    "lean": 1.36,
+    "form": 44.921,
+    "steel": 1.598
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H22",
+     0.883,
+     8
+    ],
+    [
+     "B5",
+     "H19",
+     4.9,
+     4
+    ],
+    [
+     "B6",
+     "H19",
+     4.89,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     5.07,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     5.06,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     4.76,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     4.76,
+     4
+    ],
+    [
+     "B1",
+     "H16",
+     5.5,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     4.94,
+     4
+    ],
+    [
+     "B3",
+     "H16",
+     4.1,
+     4
+    ],
+    [
+     "B4",
+     "H16",
+     4.407,
+     4
+    ],
+    [
+     "B7",
+     "H16",
+     5.917,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "B12",
+     "H16",
+     3.06,
+     4
+    ],
+    [
+     "B13",
+     "H16",
+     3.06,
+     4
+    ],
+    [
+     "B14",
+     "H16",
+     3.15,
+     4
+    ],
+    [
+     "H1",
+     "H16",
+     1.378,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.208,
+     16
+    ],
+    [
+     "H3",
+     "H16",
+     1.024,
+     8
+    ],
+    [
+     "H4",
+     "H16",
+     0.854,
+     16
+    ],
+    [
+     "R1",
+     "H16",
+     1.024,
+     8
+    ],
+    [
+     "T1",
+     "H16",
+     6.032,
+     4
+    ],
+    [
+     "T4",
+     "H16",
+     4.502,
+     4
+    ],
+    [
+     "T5",
+     "H16",
+     5.425,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     4.025,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.19,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.28,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     3.19,
+     4
+    ],
+    [
+     "B8",
+     "H13",
+     3.525,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     4.99,
+     4
+    ],
+    [
+     "B10",
+     "H13",
+     5.105,
+     4
+    ],
+    [
+     "D1",
+     "H13",
+     1.07,
+     138
+    ],
+    [
+     "D2",
+     "H13",
+     1.07,
+     132
+    ],
+    [
+     "D3",
+     "H13",
+     1.05,
+     88
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "O1",
+     "H13",
+     5.26,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.26,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.519,
+     30
+    ],
+    [
+     "S2",
+     "H13",
+     0.519,
+     30
+    ],
+    [
+     "S3",
+     "H13",
+     0.469,
+     20
+    ],
+    [
+     "S4",
+     "H13",
+     1.018,
+     20
+    ],
+    [
+     "T6",
+     "H13",
+     4.79,
+     4
+    ],
+    [
+     "T12",
+     "H13",
+     3.215,
+     4
+    ],
+    [
+     "T13",
+     "H13",
+     4.87,
+     4
+    ],
+    [
+     "T14",
+     "H13",
+     4.795,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 1.551,
+    "with_lap_t": 1.598
+   },
+   "note": "Top of sheet -2 table slightly cropped in scan but all rows readable."
+  },
+  {
+   "no": "H3-33",
+   "pages": [
+    430,
+    431
+   ],
+   "B": 4000,
+   "H": 4000,
+   "D": 5000,
+   "tT": 600,
+   "tB": 600,
+   "tW": 500,
+   "tM": 350,
+   "hT": 300,
+   "hB": 0,
+   "cO": 70,
+   "cI": 90,
+   "q": {
+    "top": 9.0,
+    "wall": 6.29,
+    "bot": 8.22,
+    "conc": 23.51,
+    "lean": 1.39,
+    "form": 45.346,
+    "steel": 2.107
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H22",
+     1.024,
+     8
+    ],
+    [
+     "B1",
+     "H19",
+     5.685,
+     4
+    ],
+    [
+     "B3",
+     "H19",
+     4.285,
+     4
+    ],
+    [
+     "B4",
+     "H19",
+     4.579,
+     4
+    ],
+    [
+     "B5",
+     "H19",
+     4.995,
+     4
+    ],
+    [
+     "B6",
+     "H19",
+     4.94,
+     4
+    ],
+    [
+     "B7",
+     "H19",
+     6.334,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.25,
+     4
+    ],
+    [
+     "B13",
+     "H19",
+     3.25,
+     4
+    ],
+    [
+     "H3",
+     "H19",
+     1.378,
+     8
+    ],
+    [
+     "H4",
+     "H19",
+     1.137,
+     16
+    ],
+    [
+     "R1",
+     "H19",
+     1.194,
+     8
+    ],
+    [
+     "T1",
+     "H19",
+     6.419,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     5.165,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     4.91,
+     4
+    ],
+    [
+     "T4",
+     "H19",
+     4.784,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     5.06,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     5.06,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     5.11,
+     4
+    ],
+    [
+     "B8",
+     "H16",
+     3.5,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     5.255,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     3.38,
+     4
+    ],
+    [
+     "B14",
+     "H16",
+     3.38,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     140
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     134
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     88
+    ],
+    [
+     "H1",
+     "H16",
+     1.802,
+     8
+    ],
+    [
+     "H2",
+     "H16",
+     1.561,
+     16
+    ],
+    [
+     "T5",
+     "H16",
+     5.55,
+     4
+    ],
+    [
+     "T6",
+     "H16",
+     4.84,
+     4
+    ],
+    [
+     "T7",
+     "H16",
+     4.15,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.52,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.53,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.53,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     3.52,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     3.125,
+     4
+    ],
+    [
+     "T14",
+     "H16",
+     4.88,
+     4
+    ],
+    [
+     "B9",
+     "H13",
+     5.245,
+     4
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "O1",
+     "H13",
+     5.56,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.56,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.672,
+     30
+    ],
+    [
+     "S2",
+     "H13",
+     0.672,
+     30
+    ],
+    [
+     "S3",
+     "H13",
+     0.572,
+     20
+    ],
+    [
+     "S4",
+     "H13",
+     1.118,
+     20
+    ],
+    [
+     "T13",
+     "H13",
+     5.095,
+     4
+    ]
+   ],
+   "steelTable": {
+    "total_t": 2.045,
+    "with_lap_t": 2.107
+   },
+   "note": ""
+  },
+  {
+   "no": "H3-34",
+   "pages": [
+    432,
+    433
+   ],
+   "B": 4000,
+   "H": 4000,
+   "D": 7000,
+   "tT": 750,
+   "tB": 750,
+   "tW": 550,
+   "tM": 400,
+   "hT": 350,
+   "hB": 0,
+   "cO": 80,
+   "cI": 90,
+   "q": {
+    "top": 11.458,
+    "wall": 6.935,
+    "bot": 10.425,
+    "conc": 28.818,
+    "lean": 1.41,
+    "form": 45.77,
+    "steel": 2.342
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H25",
+     1.109,
+     8
+    ],
+    [
+     "B5",
+     "H22",
+     5.32,
+     4
+    ],
+    [
+     "B6",
+     "H22",
+     5.25,
+     4
+    ],
+    [
+     "R1",
+     "H22",
+     1.307,
+     8
+    ],
+    [
+     "B1",
+     "H19",
+     5.75,
+     4
+    ],
+    [
+     "B3",
+     "H19",
+     4.35,
+     4
+    ],
+    [
+     "B4",
+     "H19",
+     4.874,
+     4
+    ],
+    [
+     "B7",
+     "H19",
+     6.624,
+     4
+    ],
+    [
+     "B12",
+     "H19",
+     3.72,
+     4
+    ],
+    [
+     "B13",
+     "H19",
+     3.72,
+     4
+    ],
+    [
+     "H1",
+     "H19",
+     2.127,
+     8
+    ],
+    [
+     "H2",
+     "H19",
+     1.901,
+     16
+    ],
+    [
+     "H3",
+     "H19",
+     1.632,
+     8
+    ],
+    [
+     "H4",
+     "H19",
+     1.406,
+     16
+    ],
+    [
+     "T1",
+     "H19",
+     6.569,
+     4
+    ],
+    [
+     "T2",
+     "H19",
+     5.23,
+     4
+    ],
+    [
+     "T3",
+     "H19",
+     5.16,
+     4
+    ],
+    [
+     "T4",
+     "H19",
+     4.799,
+     4
+    ],
+    [
+     "T5",
+     "H19",
+     5.665,
+     4
+    ],
+    [
+     "T7",
+     "H19",
+     4.265,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     5.34,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     5.34,
+     4
+    ],
+    [
+     "B2",
+     "H16",
+     5.16,
+     4
+    ],
+    [
+     "B8",
+     "H16",
+     3.45,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     5.31,
+     4
+    ],
+    [
+     "B10",
+     "H16",
+     5.32,
+     4
+    ],
+    [
+     "B11",
+     "H16",
+     3.48,
+     4
+    ],
+    [
+     "B14",
+     "H16",
+     3.48,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     140
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     134
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     92
+    ],
+    [
+     "T6",
+     "H16",
+     4.99,
+     4
+    ],
+    [
+     "T8",
+     "H16",
+     3.62,
+     4
+    ],
+    [
+     "T9",
+     "H16",
+     3.58,
+     4
+    ],
+    [
+     "T10",
+     "H16",
+     3.58,
+     4
+    ],
+    [
+     "T11",
+     "H16",
+     3.62,
+     4
+    ],
+    [
+     "T12",
+     "H16",
+     3.025,
+     4
+    ],
+    [
+     "T13",
+     "H16",
+     5.16,
+     4
+    ],
+    [
+     "T14",
+     "H16",
+     4.895,
+     4
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "O1",
+     "H13",
+     5.84,
+     8
+    ],
+    [
+     "O2",
+     "H13",
+     5.84,
+     8
+    ],
+    [
+     "S1",
+     "H13",
+     0.812,
+     30
+    ],
+    [
+     "S2",
+     "H13",
+     0.812,
+     30
+    ],
+    [
+     "S3",
+     "H13",
+     0.612,
+     20
+    ],
+    [
+     "S4",
+     "H13",
+     1.218,
+     20
+    ]
+   ],
+   "steelTable": {
+    "total_t": 2.268,
+    "with_lap_t": 2.342
+   },
+   "note": "Cover 외측 = 80 mm. H25 and H22 subtotals with 6% 할증."
+  },
+  {
+   "no": "H3-35",
+   "pages": [
+    434,
+    435
+   ],
+   "B": 4000,
+   "H": 4000,
+   "D": 10000,
+   "tT": 900,
+   "tB": 900,
+   "tW": 700,
+   "tM": 500,
+   "hT": 400,
+   "hB": 0,
+   "cO": 80,
+   "cI": 90,
+   "q": {
+    "top": 14.4,
+    "wall": 8.64,
+    "bot": 12.96,
+    "conc": 36.0,
+    "lean": 1.46,
+    "form": 46.194,
+    "steel": 2.919
+   },
+   "sp": {
+    "topSlab": 125,
+    "botSlab": 125,
+    "wallOut": 125,
+    "wallIn": 250,
+    "midWall": 125
+   },
+   "bars": [
+    [
+     "R2",
+     "H25",
+     1.279,
+     8
+    ],
+    [
+     "T1",
+     "H25",
+     7.449,
+     4
+    ],
+    [
+     "T3",
+     "H25",
+     5.59,
+     4
+    ],
+    [
+     "B4",
+     "H22",
+     5.222,
+     4
+    ],
+    [
+     "B5",
+     "H22",
+     5.48,
+     4
+    ],
+    [
+     "B6",
+     "H22",
+     5.35,
+     4
+    ],
+    [
+     "B7",
+     "H22",
+     7.162,
+     4
+    ],
+    [
+     "B12",
+     "H22",
+     4.0,
+     4
+    ],
+    [
+     "B13",
+     "H22",
+     4.0,
+     4
+    ],
+    [
+     "R1",
+     "H22",
+     1.505,
+     8
+    ],
+    [
+     "T4",
+     "H22",
+     5.452,
+     4
+    ],
+    [
+     "B1",
+     "H19",
+     5.95,
+     4
+    ],
+    [
+     "B2",
+     "H19",
+     5.26,
+     4
+    ],
+    [
+     "B3",
+     "H19",
+     4.55,
+     4
+    ],
+    [
+     "B8",
+     "H19",
+     3.36,
+     4
+    ],
+    [
+     "B10",
+     "H19",
+     5.53,
+     4
+    ],
+    [
+     "B11",
+     "H19",
+     4.083,
+     4
+    ],
+    [
+     "B14",
+     "H19",
+     4.083,
+     4
+    ],
+    [
+     "H1",
+     "H19",
+     2.622,
+     8
+    ],
+    [
+     "H2",
+     "H19",
+     2.325,
+     16
+    ],
+    [
+     "H3",
+     "H19",
+     2.056,
+     8
+    ],
+    [
+     "H4",
+     "H19",
+     1.759,
+     16
+    ],
+    [
+     "T2",
+     "H19",
+     5.89,
+     4
+    ],
+    [
+     "T5",
+     "H19",
+     5.865,
+     4
+    ],
+    [
+     "T6",
+     "H19",
+     5.09,
+     4
+    ],
+    [
+     "T7",
+     "H19",
+     4.465,
+     4
+    ],
+    [
+     "T8",
+     "H19",
+     4.288,
+     4
+    ],
+    [
+     "T9",
+     "H19",
+     4.2,
+     4
+    ],
+    [
+     "T10",
+     "H19",
+     4.2,
+     4
+    ],
+    [
+     "T11",
+     "H19",
+     4.288,
+     4
+    ],
+    [
+     "T12",
+     "H19",
+     2.875,
+     4
+    ],
+    [
+     "T13",
+     "H19",
+     5.46,
+     4
+    ],
+    [
+     "T14",
+     "H19",
+     5.045,
+     4
+    ],
+    [
+     "W1",
+     "H19",
+     5.64,
+     4
+    ],
+    [
+     "W2",
+     "H19",
+     5.64,
+     4
+    ],
+    [
+     "B9",
+     "H16",
+     5.63,
+     4
+    ],
+    [
+     "D1",
+     "H16",
+     1.08,
+     140
+    ],
+    [
+     "D2",
+     "H16",
+     1.08,
+     134
+    ],
+    [
+     "D3",
+     "H16",
+     1.07,
+     92
+    ],
+    [
+     "O1",
+     "H16",
+     6.14,
+     8
+    ],
+    [
+     "O2",
+     "H16",
+     6.14,
+     8
+    ],
+    [
+     "D4",
+     "H13",
+     1.05,
+     80
+    ],
+    [
+     "S1",
+     "H13",
+     0.968,
+     30
+    ],
+    [
+     "S2",
+     "H13",
+     0.965,
+     30
+    ],
+    [
+     "S3",
+     "H13",
+     0.768,
+     20
+    ],
+    [
+     "S4",
+     "H13",
+     1.427,
+     20
+    ]
+   ],
+   "steelTable": {
+    "total_t": 2.812,
+    "with_lap_t": 2.919
+   },
+   "note": "Cover 외측 = 80 mm. H25/H22 subtotals with 6% 할증. Sheet -1 layout differs (slab spacing labels placed vertically beside slab plans); values @125/@125 read there."
+  }
+ ]
+}
