@@ -27,6 +27,7 @@
 | `stem_height` · `top_width` · `front_offset` · `back_offset` · `stem_bottom` | 벽체 높이 · 상단 폭 · 전면 / 배면 경사 · 하단 폭 (mm) |
 | `toe` · `heel` · `B` · `base_thk_*` | 앞굽 · 뒷굽 · 저판 폭 · 저판 두께 (mm) |
 | `key_*` | 활동방지턱 |
+| `stem_vcol` · `footing_vcol` | 벽체 수평철근 · 저판 철근 높이 방향 배치 치수 (위에서부터, 예 `80 29@200=5800 748 80`) |
 | `mark` · `dia` · `n_per_m` · `len` · `ctc` | 철근 부호 · 직경 · 1m 당 개수 · 길이 · 간격 (한 줄 = 한 부호, 반중력식은 `n` · `L`) |
 
 ### 암거 CSV 주요 열
