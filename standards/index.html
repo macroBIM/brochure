@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>옹벽 · 암거 표준도 데이터</title>
+<style>
+  :root { --ink: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea; --bg: #fff; --head: #f5f5f7; --accent: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink: #f5f5f7; --muted: #a1a1a6; --line: #3a3a3c; --bg: #1c1c1e; --head: #2c2c2e; --accent: #60a5fa; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--ink); font: 14px/1.5 -apple-system, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.src { margin: 0 0 12px; color: var(--muted); font-size: 12.5px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  select, input { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+  input { min-width: 0; flex: 1 1 180px; }
+  a.dl { color: var(--accent); font-size: 13px; text-decoration: none; }
+  .wrap { overflow: auto; border: 1px solid var(--line); border-radius: 10px; max-height: 70vh; }
+  table { border-collapse: collapse; font-size: 12.5px; white-space: nowrap; }
+  th, td { padding: 5px 9px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+  th { position: sticky; top: 0; background: var(--head); font-weight: 600; text-align: center; }
+  td.t { text-align: left; }
+  .n { color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<h1>옹벽 · 암거 표준도 데이터</h1>
+<p class="src">출처: 도로 옹벽 표준도 (건설교통부) · 도로암거표준도 (국토해양부, 2008). 사람이 옮긴 값이므로 설계에 쓰기 전 원본과 대조하세요. — <a href="https://www.macrobim.com">macroBIM</a></p>
+<div class="bar">
+  <select id="ds" aria-label="데이터">
+    <option value="retaining-wall/L.csv">L형 옹벽</option>
+    <option value="retaining-wall/T.csv">역T형 옹벽</option>
+    <option value="retaining-wall/H.csv">반중력식 옹벽</option>
+  </select>
+  <input id="q" type="search" placeholder="거르기 (예: L-012, D19)" aria-label="거르기">
+  <a class="dl" id="dl" href="#" download>CSV 받기</a>
+  <span class="n" id="n"></span>
+</div>
+<div class="wrap"><table id="tb"></table></div>
+<script>
+/* 블로그에 넣기: <iframe src=".../standards/index.html?d=retaining-wall/T.csv&q=T-012" width="100%" height="600"></iframe> */
+(function () {
+  var ds = document.getElementById("ds"), q = document.getElementById("q"), tb = document.getElementById("tb"), rows = [], head = [];
+  var u = new URLSearchParams(location.search);
+  if (u.get("d")) ds.value = u.get("d");
+  if (u.get("q")) q.value = u.get("q");
+  function parse(text) {
+    var out = [], row = [], cur = "", inq = false;
+    text = text.replace(/^﻿/, "");
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (inq) { if (c === '"') { if (text[i + 1] === '"') { cur += '"'; i++; } else inq = false; } else cur += c; }
+      else if (c === '"') inq = true;
+      else if (c === ",") { row.push(cur); cur = ""; }
+      else if (c === "\n") { row.push(cur.replace(/\r$/, "")); out.push(row); row = []; cur = ""; }
+      else cur += c;
+    }
+    if (cur || row.length) { row.push(cur); out.push(row); }
+    return out;
+  }
+  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); }
+  function show() {
+    var f = q.value.trim().toLowerCase(), list = f ? rows.filter(function (r) { return r.join(" ").toLowerCase().indexOf(f) >= 0; }) : rows;
+    tb.innerHTML = "<thead><tr>" + head.map(function (h) { return "<th>" + esc(h) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+      list.map(function (r) { return "<tr>" + r.map(function (v) { return "<td" + (isNaN(+v) || v === "" ? " class='t'" : "") + ">" + esc(v) + "</td>"; }).join("") + "</tr>"; }).join("") + "</tbody>";
+    document.getElementById("n").textContent = list.length + " / " + rows.length + " 줄";
+  }
+  function load() {
+    document.getElementById("dl").href = ds.value;
+    fetch(ds.value).then(function (r) { return r.text(); }).then(function (t) {
+      var all = parse(t).filter(function (r) { return r.length > 1; }); head = all[0] || []; rows = all.slice(1); show();
+    }).catch(function () { tb.innerHTML = "<tr><td class='t'>불러오지 못했습니다</td></tr>"; });
+  }
+  ds.addEventListener("change", load); q.addEventListener("input", show);
+  load();
+})();
+</script>
+</body>
+</html>
